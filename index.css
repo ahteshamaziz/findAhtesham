@@ -1,15 +1,16 @@
-   #section0{
+ 
+   #aboutme {
     padding: 0%;
    }
-   #aboutme {
-    background-color:RGB(214, 80, 118);
+   #profile {
+    background: linear-gradient(110deg, #343a40 50%, #494a4c 60%);
     padding: 1%;
+    font-family: 'Mansalva', cursive;
+    color :white;
+    
    }
-   #section2 {
-    background-color:RGB(239, 192, 80);padding: 1%;
-   }
-   #section3 {
-    background-color:RGB(68, 184, 172);
+   #skills {
+    background-color:#df6016;
     padding: 1%;
    }
 
@@ -288,7 +289,7 @@
 
     /* ............................typewriter end....................... */
 
-    /* blink button */
+    /* down button */
      
     .button {
     background-color: transparent;
@@ -325,3 +326,17 @@
         opacity: 1;
         bottom: 0;
       }
+
+/* down button end */
+
+/* loader */
+
+#load{
+  width:100%;
+  height:100%;
+  position:fixed;
+  z-index:9999;
+  background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25)
+}
+
+/* loader end */
