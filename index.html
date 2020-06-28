@@ -14,14 +14,30 @@
   <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
   <!-- font end -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link rel="stylesheet" type="text/scss" href="index.scss">
   <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
+<!-- loader -->
+<!-- <script>
+  document.onreadystatechange = function () {
+var state = document.readyState
+if (state == 'interactive') {
+     document.getElementById('contents').style.visibility="hidden";
+} else if (state == 'complete') {
+    setTimeout(function(){
+       document.getElementById('interactive');
+       document.getElementById('load').style.visibility="hidden";
+       document.getElementById('contents').style.visibility="visible";
+    },1000);
+}
+}
+</script> -->
 
 
 <body style="width: 100%;">
-    <div id="load"></div>
+    <!-- <div id="load"></div> -->
     <div id="contents">
 <!-- navbar -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
@@ -244,37 +260,35 @@
             </div>
 
             <div id="contact" class="container-fluid">
-                    <div class="row" style="margin-top: 4%;">
+                    <div class="row" style="margin-top: 4%;width: 100%;">
                     <div class="bg"></div>
                     <div class="bg bg2"></div>
                     <div class="bg bg3"></div>
-                    <div class="content">
-                      <h1>...</h1>
+                    <div class="content" style="width: 100%;">
+                        
+                    <div class="social-buttons">
+                     <div class="row">
+                       <div class="col-sm-3">
+                        <a href="https://www.facebook.com/ahtesham.aziz.92/"><i class="fab fa-facebook"></i></a>
+                       </div>
+                       <div class="col-sm-3">
+                        <a href="https://www.instagram.com/ahteshamaziz/"><i class="fab fa-instagram"></i></a>
+                       </div>
+                        <div class="col-sm-3"> 
+                          <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ahteshamaziz@gmail.com"><i class="fab fa-google"></i></a>
+                        </div>
+                        <div class="col-sm-3"> 
+                          <a href="https://www.linkedin.com/in/mohammad-ahtesham-82917712b/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                      </div>
+                      </div>
+                      </div>
                     </div>
-                    </div>
-            </div>
-
-            
-                  
+                
     </div>
   </div>
 <!-- main containt end-->  
     </body>
 
-<!-- loader -->
-    <script>
-    document.onreadystatechange = function () {
-  var state = document.readyState
-  if (state == 'interactive') {
-       document.getElementById('contents').style.visibility="hidden";
-  } else if (state == 'complete') {
-      setTimeout(function(){
-         document.getElementById('interactive');
-         document.getElementById('load').style.visibility="hidden";
-         document.getElementById('contents').style.visibility="visible";
-      },1000);
-  }
-}
-</script>
 
 </html>
